@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<!--LOADER-->
+
+<div class="loader">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="46"/>
+  </svg>
+</div>
+
+<body>
+  <!--NAVIGATION BAR-->
+
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+          <img id="header-img" class="navbar-brand" src=".\logo-img\logo.png" alt="logo">
+      </div>
+      <div class="wrapper">
+        <div class="circle icon">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </div>
+      </div>
+      <div class="navbar-links">
+          <ul>
+              <li><a href="index.html">Home Page</a></li>
+              <li><a href="about-us.html">About Us</a> </li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="donation.html">Donation</a></li>
+          </ul>
+      </div>
+  </nav>
+    </header>
+    <main>
+    <!--HOME PAGE-->
+
+    <div class="welcome-page">
+      <div class="background-img"></div>
+      <h2 id="welcome">Welcome!</h2>
+      <h2 id="rumi-quote">I closed my mouth<br>and spoke to you<br>in hundred silent ways.<br><br>-Rumi</h2>
+    </div>
+
+
+      <div class="content-home">
+        <h2>Upcoming Events & Social Media</h2>
+        <section id="content-page">
+        <!-- Slideshow container -->
+        <div class="slideshow-container-bg">
+          <div class="slideshow-container">
+
+            <!--SLIDE 1-->
+            <div class="slideshow-inner">
+              <div class="mySlides fade">
+            
+                <img  src='team-4529717_1920.jpg' style='width: 100%; height: 100%;' alt="slide-1"/>
+                <div class="text">slide-1</div>
+              </div>
+            <!--SLIDE 1-->
+            
+            <!--SLIDE 2-->
+              <div class="mySlides fade">
+            
+                <img  src='beth-macdonald-mbND4xtrlVY-unsplash.jpg' style='width: 100%; height: 100%;' alt="slide-2"/>
+                <div class="text">slide-2</div>
+              </div>
+            <!--SLIDE 2-->
+            
+            <!--SLIDE 3-->
+              <div class="mySlides fade">
+            
+                <img  src='startup-593341_1920.jpg' style='width: 100%; height: 100%;' alt="slide-3"/>
+                <div class="text">slide-3</div>
+              </div>
+            <!--SLIDE 3-->
+
+            <!--SLIDE 4-->
+              <div class="mySlides fade">
+            
+                <img  src='hannah-busing-Zyx1bK9mqmA-unsplash.jpg' style='width: 100%; height: 100%;' alt="slide-4"/>
+                <div class="text">slide-4</div>
+              </div>
+            <!--SLIDE 4-->
+            </div>
+
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+
+            <br/>
+            </div>
+              <!--dots-->
+              <div style='text-align: center;'>
+                <span class="dot" onclick='currentSlide(1)'></span>
+                <span class="dot" onclick='currentSlide(2)'></span>
+                <span class="dot" onclick='currentSlide(3)'></span>
+                <span class="dot" onclick='currentSlide(4)'></span>
+              </div>
+              <!--dots-->
+        </div>
+        
+          <div class="upcoming border-radius-20px">
+            <img id="upcoming-event-img" src="./home-page img/ramadan-ue.jpeg" style="width: 100%;">
+          </div>
+          <div class="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6yAE_y8uRkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="facebook border-radius-20px">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBostonYDA&tabs=timeline&width=340&height=187&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="70%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+          <div class="twitter border-radius-20px">
+            <a class="twitter-timeline" data-width="550" data-height="500" href="https://twitter.com/BostonYDA?ref_src=twsrc%5Etfw">Tweets by BostonYDA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+
+          <!--CONTACT FRAME-->
+          <div class="contact-frame">
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul>
+                      <li><a href="about-us.html">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                      <li><a href="contact.html #faq">FAQ</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>sister organizations</h4>
+                    <ul>
+                      <li><a href="#">org 1</a></li>
+                      <li><a href="#">org 2</a></li>
+                      <li><a href="#">org 3</a></li>
+                      <li><a href="#">org 4</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                      <a href="https://www.facebook.com/BostonYDA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/BostonYDA" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/bostonyda/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </footer>
+          </div>
+        </section>
+      </div>
+    
+      
+    </main>
+
+  <script src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+$(".wrapper").click( function() {
+	$(".icon").toggleClass("close");
+});
+    </script>
+</body>
+</html>

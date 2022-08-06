@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--NAVIGATION BAR-->
+        <nav class="navbar">
+          <div class="brand">
+              <img id="header-img" class="navbar-brand" src=".\logo-img\logo.png" alt="logo">
+          </div>
+          <div class="wrapper">
+            <div class="circle icon">
+              <span class="line top"></span>
+              <span class="line middle"></span>
+              <span class="line bottom"></span>
+            </div>
+          </div>
+          <div class="navbar-links">
+              <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="about-us.html">About Us</a> </li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="donation.html">Donation</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+
+    <main id="donation-section">
+        
+        <div class="recent-fundraiser">
+            <div class="gfm-embed" data-url="https://www.gofundme.com/f/cambridge-ramadan-food-tent/widget/large/"></div>
+        </div>
+
+
+        <div class="pay-pal-patreon">
+            <div class="donation-box">
+                
+                <h2>Donate</h2>
+                <p>Support our organization. <br/>Donate below.</p> <br>
+                <a href="https://paypal.me/" target="_blank" class="btn paypal">
+                    <i class="fab fa-paypal"></i> Paypal
+                </a>
+                <a href="https://patreon.com/" target="_blank" class="btn patreon">
+                    <i class="fab fa-patreon"></i> Patreon
+                </a>
+                <br><br>
+                <img src=".\donation-img\coin-img.png" alt="coins" style="width: 30%;">
+            </div>
+        </div>
+
+        <!--CONTACT FRAME-->
+          <div class="contact-frame">
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul>
+                      <li><a href="about-us.html">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                      <li><a href="contact.html #faq">FAQ</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>sister organizations</h4>
+                    <ul>
+                      <li><a href="#">org 1</a></li>
+                      <li><a href="#">org 2</a></li>
+                      <li><a href="#">org 3</a></li>
+                      <li><a href="#">org 4</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                      <a href="https://www.facebook.com/BostonYDA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/BostonYDA" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/bostonyda/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </footer>
+          </div>
+        </section>
+      </div>
+    <!--CONTACT FRAME-->
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+      <script type="text/javascript">
+  $(".wrapper").click( function() {
+      $(".icon").toggleClass("close");
+  });
+      </script>
+      <script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--NAVIGATION BAR-->
+        <nav class="navbar">
+          <div class="brand">
+              <img id="header-img" class="navbar-brand" src=".\logo-img\logo.png" alt="logo">
+          </div>
+          <div class="wrapper">
+            <div class="circle icon">
+              <span class="line top"></span>
+              <span class="line middle"></span>
+              <span class="line bottom"></span>
+            </div>
+          </div>
+          <div class="navbar-links">
+              <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="about-us.html">About Us</a> </li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="donation.html">Donation</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+
+    <main id="contact-us-section">
+      <div class="info-section">
+          <div class="address">
+            <i class="fas fa-map-marker-alt orange-color"></i>
+            <div>Address</div>
+            <div>500 Revere St.</div>
+            <div>Revere, MA 02151</div>
+          </div>
+          <div class="phone">
+            <a href="tel:+161777982223"><i class="fas fa-phone-alt orange-color"></i></a>
+            <div>Phone</div>
+            <div>(click the icon above to call us)</div>
+            <div>+16177798222</div>
+            <div>+12013100858</div>
+          </div>
+          <div class="email">
+            <i class="fas fa-envelope orange-color"></i>
+            <div>Email</div>
+            <div>web@bostonyda.org</div>
+            <div>info@tccma.org</div>
+        </div>
+      </div>
+        <div class="form-section">
+            <form action="https://formsubmit.co/web@bostonyda.org" method="POST">
+              <h1>Contact Form</h1>
+              <input type="hidden" name="_subject" value="Email from BYDA website!">
+              <label for="name">Name:</label><br> <input id="name" type="text" name="name" placeholder="Your Name" required> <br><br>
+              <label for="email">Email:</label><br> <input id="email" type="email" name="email" placeholder="Your Email Address" required><br><br>
+              <label for="message">Message:</label><br> <input id="message" type="text" name="message" placeholder="Your Message" required><br><br>
+              <button id="submit-button" type="submit">Send</button> <br>
+            </form>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74840.54003592585!2d-71.03724247200742!3d42.39236313807211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e36dfd1f4df907%3A0xe23269146e1928c3!2sTurkish%20Cultural%20Center%20Massachusetts!5e0!3m2!1sen!2sus!4v1647275047864!5m2!1sen!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="faq" id="faq">
+          <h2 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h2>
+          <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <symbol viewBox="0 0 24 24" id="expand-more">
+                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+              </symbol>
+              <symbol viewBox="0 0 24 24" id="close">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+              </symbol>
+            </svg>
+          </div>
+
+          <details>
+            <summary>
+              Question 1
+              <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+              <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+            </summary>
+            <p>Answer 1</p>
+          </details>
+
+          <details>
+
+            <summary>
+              Question 2
+              <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+              <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+            </summary>
+            <p>Answer 2</p>
+          </details>
+
+          <details>
+            <summary>
+              Question 3   
+              <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+              <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+            </summary>
+            <p>Answer 3</p>
+          </details>
+        </div>
+        <!--CONTACT FRAME-->
+          <div class="contact-frame">
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul>
+                      <li><a href="about-us.html">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                      <li><a href="contact.html #faq">FAQ</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>sister organizations</h4>
+                    <ul>
+                      <li><a href="#">org 1</a></li>
+                      <li><a href="#">org 2</a></li>
+                      <li><a href="#">org 3</a></li>
+                      <li><a href="#">org 4</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                      <a href="https://www.facebook.com/BostonYDA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/BostonYDA" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/bostonyda/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </footer>
+          </div>
+        </section>
+      </div>
+    <!--CONTACT FRAME-->
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+      <script type="text/javascript">
+  $(".wrapper").click( function() {
+      $(".icon").toggleClass("close");
+  });
+      </script>
+</body>
+</html>
